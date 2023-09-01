@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color:rgb(6, 6, 53);
+    font-family: 'Oswald', sans-serif;
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.container .navbar{
+    margin-left: 70px;
+}
+.container .navbar ul li{
+    margin-left: 40px;
+}
+.logo{
+    color: rgb(255, 68, 0);
+    font-family: 'Oswald', sans-serif;
+    font-size: larger;
+}
+.navbar{
+    font-family: 'Oswald', sans-serif;
+}
+.navbar ul li{
+    display: inline;
+    list-style: none;
+}
+.navbar ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: whitesmoke;
+}
+.hello{
+    font-family: 'Oswald', sans-serif;
+    color: rgb(255, 68, 0);
+    font-size: larger;
+}
+.para{
+    color: whitesmoke;
+}
+button{
+    background-color: rgb(255, 68, 0);
+    width:78px ;
+    height: 30px;
+    border-top: 0px;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+button:hover{
+    width: 150px;
+}
+.container2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
