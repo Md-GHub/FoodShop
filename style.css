@@ -15,6 +15,10 @@
 .container .navbar ul li{
     margin-left: 40px;
 }
+.navbar ul li a:hover{
+    color:rgb(110, 17, 17) ;
+    transition: 0.37s;
+}
 .logo{
     color: rgb(255, 68, 0);
     font-family: 'Oswald', sans-serif;
@@ -35,25 +39,44 @@
 .hello{
     font-family: 'Oswald', sans-serif;
     color: rgb(255, 68, 0);
-    font-size: larger;
+    font-size: xx-large;
+    margin: 20px;
+    z-index: 1;
 }
 .para{
     color: whitesmoke;
+    font-size: x-large;
+    z-index: 1;
 }
 button{
     background-color: rgb(255, 68, 0);
-    width:78px ;
-    height: 30px;
-    border-top: 0px;
-    border-radius: 10px;
-    transition: 0.3s;
+    width:110px ;
+    height: 40px;
+    border: 0px;
+    border-radius: 20px;
+    transition: 0.4s;
 }
 button:hover{
     width: 150px;
+    background-color:rgb(110, 17, 17) ;
+    color: white;
 }
 .container2{
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     height: 100vh;
+}
+.button{
+    z-index: 1;
+    margin-top: 20px;
+}
+.img {
+    align-self: flex-end;
+    position:absolute;
+    right: 100px;
+    z-index: 0;
+    width:400px;
+    height: 400px;
 }
