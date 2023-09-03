@@ -108,16 +108,47 @@ button:hover{
     
 
 }
-@media (max-width:729px){
+@media (max-width:720px){
     .container2{
         display: flex;
         justify-content: center;
         align-items: center;
         height: 100vh;
         flex-direction: column;
-        margin-top: 35px;
+        margin-top: 45px;
     }
     .c1{
-        margin-bottom: 30px;
+        margin-bottom:30px;
+        order: 8;
+    }
+}
+@media (max-width: 314px) {
+    /* Adjust styles for 6.7-inch phones here */
+    .container2 {
+        margin-top: 20px;
+    }
+
+    .img {
+        width: 250px;
+        height: 250px;
+    }
+
+    .hello {
+        font-size: large;
+        margin-bottom: 8px;
+    }
+
+    .para {
+        font-size: medium;
+    }
+
+    button {
+        width: 100px;
+        height: 40px;
+        border-radius: 15px;
+    }
+
+    button:hover {
+        width: 140px;
     }
 }
