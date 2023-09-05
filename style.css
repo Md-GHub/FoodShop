@@ -1,116 +1,146 @@
-*{
+* {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    background-color:rgb(6, 6, 53);
+    background-color: rgb(6, 6, 53);
     font-family: 'Oswald', sans-serif;
 }
-.container{
+
+.container {
     display: flex;
     justify-content: space-around;
+}
+
+.container .navbar {
+    margin-left: 2%;
+}
+
+.container .navbar ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
     
 }
-.container .navbar{
-    margin-left: 70px;
+
+.container .navbar ul li {
+    margin-left: 10%;
+    margin-bottom: 10px; /* Add spacing between navigation items */
 }
-.container .navbar ul li{
-    margin-left: 40px;
-}
-.navbar ul li a:hover{
-    color:rgb(110, 17, 17) ;
+
+.navbar ul li a:hover {
+    color: rgb(110, 17, 17);
     transition: 0.37s;
 }
-.logo{
+
+.logo {
     color: rgb(255, 68, 0);
     font-family: 'Oswald', sans-serif;
     font-size: larger;
 }
-.navbar{
+
+.navbar {
     font-family: 'Oswald', sans-serif;
 }
-.navbar ul li{
+
+.navbar ul li {
     display: inline;
-    list-style: none;
 }
-.navbar ul li a{
+
+.navbar ul li a {
     text-decoration: none;
     text-transform: uppercase;
     color: whitesmoke;
 }
-.hello{
+
+.hello {
     font-family: 'Oswald', sans-serif;
     color: rgb(255, 68, 0);
     font-size: xx-large;
     margin-bottom: 12px;
 }
-.para{
+
+.para {
     color: whitesmoke;
     font-size: x-large;
     z-index: 1;
 }
-button{
+
+button {
     background-color: rgb(255, 68, 0);
-    width:110px ;
+    width: 110px;
     height: 40px;
     border: 0px;
     border-radius: 20px;
     transition: 0.4s;
 }
-button:hover{
+
+button:hover {
     width: 150px;
-    background-color:rgb(110, 17, 17) ;
+    background-color: rgb(110, 17, 17);
     color: white;
 }
-.container2{
+
+.container2 {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
 }
-.button{
+
+.button {
     margin-top: 20px;
 }
+
 .img {
-    width:400px;
-    height:400px;
+    width: 400px;
+    height: 400px;
+    max-width: 100%;
+    height: auto;
 }
-.c1{
-    margin-right:10%;
+
+.c1 {
+    margin-right: 10%;
     padding: 10px;
 }
-@media (max-width:900px)and (min-width:730px){
+
+@media (max-width: 900px) and (min-width: 730px) {
     .img {
-        width:350px;
-        height:350px;
+        width: 350px;
+        height: 350px;
+        max-width: 100%;
+        height: auto;
     }
-    .hello{
+
+    .hello {
         font-family: 'Oswald', sans-serif;
         color: rgb(255, 68, 0);
         font-size: x-large;
         margin-bottom: 12px;
     }
-    .para{
+
+    .para {
         color: whitesmoke;
         font-size: large;
     }
-    button{
+
+    button {
         background-color: rgb(255, 68, 0);
-        width:80px ;
+        width: 80px;
         height: 40px;
         border: 0px;
         border-radius: 10px;
         transition: 0.4s;
     }
-    button:hover{
+
+    button:hover {
         width: 120px;
-        background-color:rgb(110, 17, 17) ;
+        background-color: rgb(110, 17, 17);
         color: white;
     }
-    
-
 }
-@media (max-width:720px){
-    .container2{
+
+@media (max-width: 720px) {
+    .container2 {
         display: flex;
         justify-content: center;
         align-items: center;
@@ -118,13 +148,14 @@ button:hover{
         flex-direction: column;
         margin-top: 45px;
     }
-    .c1{
-        margin-bottom:30px;
+
+    .c1 {
+        margin-bottom: 30px;
         order: 8;
     }
 }
+
 @media (max-width: 314px) {
-    /* Adjust styles for 6.7-inch phones here */
     .container2 {
         margin-top: 20px;
     }
@@ -132,6 +163,8 @@ button:hover{
     .img {
         width: 150px;
         height: 150px;
+        max-width: 100%;
+        height: auto;
     }
 
     .hello {
@@ -153,3 +186,59 @@ button:hover{
         width: 140px;
     }
 }
+
+.container3 {
+    font-family: 'Oswald', sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.quotes {
+    margin-left: 2%;
+    padding: 20px;
+    flex: 1;
+}
+
+.aboutfont {
+    color: rgb(255, 68, 0);
+}
+
+.aboutpara {
+    color: whitesmoke;
+}
+
+.img2 {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+}
+.foodmenu{
+    color: rgb(255, 68, 0);
+    font-size: 14px;
+}
+.quotes2{
+    color: whitesmoke;
+
+}
+.menu{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.menulist{
+    margin-top: 15px;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+
+}
+.fooditems{
+    width: 200px;
+    height: 200px;
+}
+.template {
+    background-color: #3498db; /* You can use your preferred color here */
+    color: #ffffff; /* Text color */
+    padding: 20px; /* Padding for spacing */
+  }
+  
